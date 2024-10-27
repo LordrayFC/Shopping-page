@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="logo">
+          <img class="logoimg" src="./assets/logo.png" alt="logo" />
+          <h2>FlipKart</h2>
+        </div>
+
+        <section>
+          <div class="side">
+            <div><i class="bi bi-house-door"></i><span>Dashboard</span></div>
+          </div>
+
+          <div class="side">
+            <div><i class="bi bi-people"></i><span>Customers</span></div>
+          </div>
+
+          <div class="side">
+            <div><i class="bi bi-chat"></i><span>Message</span></div>
+          </div>
+
+          <div class="side">
+            <div><i class="bi bi-question-lg"></i><span>Help</span></div>
+          </div>
+
+          <div class="side">
+            <div><i class="bi bi-gear"></i><span>Settings</span></div>
+          </div>
+
+          <div class="side">
+            <div><i class="bi bi-lock"></i><span>Password</span></div>
+          </div>
+
+          <div class="side">
+            <div>
+              <i class="bi bi-box-arrow-right"></i><span>Sign Out</span>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <main class="main-content">
+        <header class="header">
+          <i class="bi bi-list"></i>
+          <div class="search-box">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search here" />
+          </div>
+          <img
+            src="./assets/massive.jpg"
+            alt="Profile Picture"
+            class="profile-picture"
+          />
+        </header>
+
+        <div class="top-bar">
+          <div class="stats">
+            <div class="stat">
+              <div>
+                <h2>1,504</h2>
+                <p>Daily Views</p>
+              </div>
+
+              <div>
+                <i class="bi bi-eye"></i>
+              </div>
+            </div>
+
+            <div class="stat active">
+              <div>
+                <h2>80</h2>
+                <p>Sales</p>
+              </div>
+
+              <div>
+                <i class="bi bi-cart3"></i>
+              </div>
+            </div>
+
+            <div class="stat">
+              <div>
+                <h2>284</h2>
+                <p>Comments</p>
+              </div>
+
+              <div>
+                <i class="bi bi-chat"></i>
+              </div>
+            </div>
+
+            <div class="stat">
+              <div>
+                <h2>$7,842</h2>
+                <p>Earning</p>
+              </div>
+
+              <div>
+                <i class="bi bi-cash-stack"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="recent-orders">
+            <div class="contain">
+              <span class="title">Recent Orders</span>
+              <button class="view-all-btn">View All</button>
+            </div>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Payment</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>$1200</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+
+                <tr>
+                  <td>Window Coolers</td>
+                  <td>$110</td>
+                  <td>Due</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+
+                <tr>
+                  <td>Speakers</td>
+                  <td>$620</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+
+                <tr>
+                  <td>Hp Laptops</td>
+                  <td>$110</td>
+                  <td>Due</td>
+                  <td><span class="status in-progress">In Progress</span></td>
+                </tr>
+
+                <tr>
+                  <td>Apple Watch</td>
+                  <td>$1200</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+
+                <tr>
+                  <td>Wall Fan</td>
+                  <td>$110</td>
+                  <td>Paid</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+
+                <tr>
+                  <td>Adidas Shoes</td>
+                  <td>$620</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+
+                <tr>
+                  <td>Denim Shirts</td>
+                  <td>$110</td>
+                  <td>Due</td>
+                  <td><span class="status in-progress">In Progress</span></td>
+                </tr>
+
+                <tr>
+                  <td>Causal Shoes</td>
+                  <td>$575</td>
+                  <td>Paid</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+
+                <tr>
+                  <td>Wall Fan</td>
+                  <td>$110</td>
+                  <td>Paid</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+
+                <tr>
+                  <td>Denim Shirts</td>
+                  <td>$110</td>
+                  <td>Due</td>
+                  <td><span class="status in-progress">In Progress</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="recent-customers">
+            <h2 class="recent">Recent Customers</h2>
+            <ul>
+              <li class="we2">
+                <div>
+                  <img class="cust" src="./assets/profile2.jpeg" alt="" />
+                </div>
+
+                <div>
+                  <h4 class="customer-name">David</h4>
+                  <p class="country">Italy</p>
+                </div>
+              </li>
+              <br />
+              <li class="we">
+                <div>
+                  <img class="cust" src="/assets/profile3.jpeg" alt="omooo" />
+                </div>
+                <div>
+                  <h4 class="customer-name">Muhammad</h4>
+                  <p class="country">India</p>
+                </div>
+              </li>
+              <br />
+              <li class="we2">
+                <div>
+                  <img class="cust" src="./assets/profile4.jpeg" alt="" />
+                </div>
+                <div>
+                  <h4 class="customer-name">John</h4>
+                  <p class="country">France</p>
+                </div>
+              </li>
+              <br />
+              <li class="we2">
+                <div>
+                  <img class="cust" src="./assets/profile5.jpeg" alt="" />
+                </div>
+
+                <div>
+                  <h4 class="customer-name">Steve</h4>
+                  <p class="country">USA</p>
+                </div>
+              </li>
+              <br />
+              <li class="we2">
+                <div>
+                  <img class="cust" src="./assets/profile6.jpeg" alt="" />
+                </div>
+
+                <div>
+                  <h4 class="customer-name">Amit</h4>
+                  <p class="country">India</p>
+                </div>
+              </li>
+              <br />
+              <li class="we2">
+                <div>
+                  <img class="cust" src="./assets/profile3.jpeg" alt="" />
+                </div>
+
+                <div>
+                  <h4 class="customer-name">Ashraf</h4>
+                  <p class="country">India</p>
+                </div>
+              </li>
+              <br />
+              <li class="we2">
+                <div>
+                  <img class="cust" src="./assets/onana.jpg" alt="" />
+                </div>
+
+                <div>
+                  <h4 class="customer-name">Diego</h4>
+                  <p class="country">Malaysia</p>
+                </div>
+              </li>
+              <br />
+              <li class="we2">
+                <div>
+                  <img class="cust" src="./assets/herosection.jpg" alt="" />
+                </div>
+
+                <div>
+                  <h4 class="customer-name">Amith</h4>
+                  <p class="country">Japan</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
